@@ -11,6 +11,7 @@ class Solution {
                 smax = nums[i];
             }
         }
+        
         int ans = (max-1) * (smax - 1);
 
         return ans;
