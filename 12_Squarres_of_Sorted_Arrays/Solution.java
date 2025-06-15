@@ -13,7 +13,6 @@ class Solution {
             int es = nums[end] * nums[end];
 
             if(ss > es){
-
                 ans[ptr] = ss;
                 start++;
             }else{
